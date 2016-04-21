@@ -88,7 +88,7 @@ static dispatch_queue_t kissxml_request_operation_processing_queue() {
         return nil;
     }
     
-    self.acceptableContentTypes = [[self class] defaultAcceptableContentTypes];
+    //self.acceptableContentTypes = [[self class] defaultAcceptableContentTypes];
     
     return self;
 }
